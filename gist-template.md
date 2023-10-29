@@ -22,7 +22,13 @@ Break down of an e-mail regex,
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
-
+Literals are the the actual charcters as they appear in the text
+MetaCharacters have special meanings in a regex. Examples are '.' '*' '+' and '?'.
+Character classes allow you yo match a certain set of characters. '/d' matches a digit. '/s' matches whitespace. '/w' matches words.
+Anchors
+Qualifiers and OR qualifiers
+Groupings and capturing which allow you to treat several characters as one unit and capture the matching text for processing.
+Alternation allows you to match patterns with each other.
 ### Anchors
 The anchors of  this regex are the '^' and the '$'. The '^' is the start of the expression and the '$' is the end of the expression
 ### Quantifiers
@@ -46,5 +52,5 @@ Back refences refer to captured groups inside the regex. They are captured by pa
 ### Look-ahead and Look-behind
 Look-aheads and Look-behinds make sure that a pattern is not followed or proceeded by another without including the matched pattern. These are used for making sure a particular pattern is included or not lincluded  without it being included in the matching result. Combined with Boundries you can create more complex regex to match patterns or perform complex text manipulations.
 ## Author
+Michael Edestein is a student in a Full Stack coding bootcamp. He is currently learning how to use the MERN stack to develop full scale web applications. Currently he has learned mySQL as well. He can be found at: https://github.com/MEdelsteinE
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
